@@ -30,7 +30,7 @@ for key in conceptDict.keys():
     for frame in json_data:
         found = False
         for concept in frame['data']['concepts']:
-            if key == concept['name']:
+            if key == concept['name'] and concept['value'] > 0.8:
                 conceptDict[key].append(1)
                 found = True
                 break
