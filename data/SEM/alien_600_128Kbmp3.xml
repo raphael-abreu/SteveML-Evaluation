@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SEM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-21_schema_files/dia-2nd/XSI-2nd.xsd urn:mpeg:mpeg-v:2010:01-SEV-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-V_schema_files/MPEG-V-SEV.xsd urn:mpeg:mpeg7:schema:2004 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-7_schema_files/mpeg7-v2.xsd" 
+	xmlns="urn:mpeg:mpeg-v:2010:01-SEDL-NS" 
+	xmlns:sev="urn:mpeg:mpeg-v:2010:01-SEV-NS" 
+	xmlns:si="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS" 
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004"
+	si:absTimeScheme="mp7t" 
+	si:puMode="ancestorsDescendants" 
+	si:timeScale="90000">
+	<Effect xsi:type="sev:LightType" activate="true" autoExtraction="both" si:anchorElement="true" si:pts="0"/>
+	<Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="10" si:anchorElement="true" si:pts="180000"/>
+	<Effect xsi:type="sev:WindType" activate="false" si:anchorElement="true" si:pts="270000"/>
+	<Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="30" si:anchorElement="true" si:pts="720000"/>
+	<Effect xsi:type="sev:WindType" activate="false" si:anchorElement="true" si:pts="810000"/>
+	<Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="50" si:anchorElement="true" si:pts="990000"/>
+	<Effect xsi:type="sev:VibrationType" activate="false" si:anchorElement="true" si:pts="1080000"/>
+	<Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="20" si:anchorElement="true" si:pts="1260000"/>
+	<Effect xsi:type="sev:WindType" activate="false" si:anchorElement="true" si:pts="1350000"/>
+	<Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="80" si:anchorElement="true" si:pts="1980000"/>
+	<Effect xsi:type="sev:VibrationType" activate="false" si:anchorElement="true" si:pts="2070000"/>
+	<Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="40" si:anchorElement="true" si:pts="2250000"/>
+	<Effect xsi:type="sev:WindType" activate="false" si:anchorElement="true" si:pts="2340000"/>
+	<GroupOfEffects si:anchorElement="true" si:pts="2430000">
+		<Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="80"/>
+		<Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="40"/>
+	</GroupOfEffects>
+	<GroupOfEffects si:anchorElement="true" si:pts="2520000">
+		<Effect xsi:type="sev:VibrationType" activate="false"/>
+		<Effect xsi:type="sev:WindType" activate="false"/>
+	</GroupOfEffects>
+	<Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="90" si:anchorElement="true" si:pts="2700000"/>
+	<Effect xsi:type="sev:WindType" activate="false" si:anchorElement="true" si:pts="2790000"/>
+	<GroupOfEffects si:anchorElement="true" si:pts="3330000">
+		<Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="0"/>
+		<Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="70"/>
+	</GroupOfEffects>
+	<GroupOfEffects si:anchorElement="true" si:pts="3339000">
+		<Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="100" fade="81000"/>
+		<Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="20" fade="81000"/>
+	</GroupOfEffects>
+	<GroupOfEffects si:anchorElement="true" si:pts="3690000">
+		<Effect xsi:type="sev:VibrationType" activate="false"/>
+		<Effect xsi:type="sev:WindType" activate="false"/>
+	</GroupOfEffects>
+	<Effect xsi:type="sev:LightType" activate="false" si:anchorElement="true" si:pts="5580000"/>
+</SEM>

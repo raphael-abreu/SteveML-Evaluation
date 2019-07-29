@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:SEM xmlns:ns2="urn:mpeg:mpeg-v:2010:01-SEDL-NS" xmlns:ns1="urn:mpeg:mpeg7:schema:2004" xmlns:ns3="urn:mpeg:mpeg-v:2010:01-SEV-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sev="urn:mpeg:mpeg-v:2010:01-SEV-NS" xmlns:sedl="urn:mpeg:mpeg-v:2010:01-SEDL-NS" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" xmlns:si="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS" si:puMode="ancestorsDescendants" si:absTimeScheme="mp7t" si:timeScale="90000" xsi:schemaLocation="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-21_schema_files/dia-2nd/XSI-2nd.xsd urn:mpeg:mpeg-v:2010:01-SEV-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-V_schema_files/MPEG-V-SEV.xsd urn:mpeg:mpeg7:schema:2004 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-7_schema_files/mpeg7-v2.xsd">
+	<ns2:GroupOfEffects si:pts="0" si:anchorElement="true">
+		<ns2:Effect xsi:type="ns3:LightType" activate="true" autoExtraction="visual"/>
+		<ns2:Effect xsi:type="ns3:WindType" activate="true" intensity-value="5" intensity-range="0 100"/>
+	</ns2:GroupOfEffects>
+	<ns2:Effect xsi:type="ns3:WindType" activate="false" si:pts="81000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="true"  intensity-value="30" intensity-range="0 100" si:pts="144000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="true" intensity-value="15" intensity-range="0 100" si:pts="270000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="true" fade="45000" intensity-value="100" intensity-range="0 100" si:pts="279000" si:anchorElement="true"/>
+	<ns2:GroupOfEffects si:pts="324000" si:anchorElement="true">
+		<ns2:Effect xsi:type="ns3:VibrationType" activate="false"/>
+		<ns2:Effect xsi:type="ns3:WindType" activate="false"/>
+	</ns2:GroupOfEffects>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="true" intensity-value="60" intensity-range="0 100" si:pts="333000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="false" si:pts="378000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="true" intensity-value="80" intensity-range="0 100" si:pts="558000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="false" si:pts="594000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="true" intensity-value="60" intensity-range="0 100" si:pts="1242000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="false" si:pts="1314000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="true" intensity-value="40" intensity-range="0 100" si:pts="1323000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="false" si:pts="1341000" si:anchorElement="true"/>
+	<ns2:GroupOfEffects si:pts="1395000" si:anchorElement="true">
+		<ns2:Effect xsi:type="ns3:VibrationType" activate="true" intensity-value="20" intensity-range="0 100"/>
+		<ns2:Effect xsi:type="ns3:WindType" activate="true" intensity-value="40" intensity-range="0 100"/>
+	</ns2:GroupOfEffects>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="false" si:pts="1422000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="false" si:pts="1431000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="true" intensity-value="30" intensity-range="0 100" si:pts="1620000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="false" si:pts="1665000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="true" intensity-value="20" intensity-range="0 100" si:pts="1980000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="false" si:pts="2043000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="true" intensity-value="10" intensity-range="0 100" si:pts="2448000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="false" si:pts="2646000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="true" intensity-value="70" intensity-range="0 100" si:pts="2664000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="true" intensity-value="80" intensity-range="0 100" si:pts="2700000" si:anchorElement="true"/>
+	<ns2:GroupOfEffects si:pts="2727000" si:anchorElement="true">
+		<ns2:Effect xsi:type="ns3:VibrationType" activate="false"/>
+		<ns2:Effect xsi:type="ns3:WindType" activate="false"/>
+	</ns2:GroupOfEffects>
+	<ns2:Effect xsi:type="ns3:WindType" activate="true" intensity-value="20" intensity-range="0 100" si:pts="2781000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:WindType" activate="false" si:pts="2835000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="true" intensity-value="60" intensity-range="0 100" si:pts="2853000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:VibrationType" activate="false" si:pts="2925000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="ns3:LightType" activate="false" si:pts="3060000" si:anchorElement="true"/>
+</ns2:SEM>

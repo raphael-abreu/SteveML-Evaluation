@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:SEM xmlns:ns2="urn:mpeg:mpeg-v:2010:01-SEDL-NS" xmlns:ns1="urn:mpeg:mpeg7:schema:2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sev="urn:mpeg:mpeg-v:2010:01-SEV-NS" xmlns:sedl="urn:mpeg:mpeg-v:2010:01-SEDL-NS" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" xmlns:si="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS" si:puMode="ancestorsDescendants" si:absTimeScheme="mp7t" si:timeScale="90000" xsi:schemaLocation="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-21_schema_files/dia-2nd/XSI-2nd.xsd urn:mpeg:mpeg-v:2010:01-SEV-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-V_schema_files/MPEG-V-SEV.xsd urn:mpeg:mpeg7:schema:2004 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-7_schema_files/mpeg7-v2.xsd">
+	<ns2:Effect xsi:type="sev:LightType" activate="true" autoExtraction="both" si:pts="0" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="10" si:pts="1017000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="0" si:pts="1773000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="30" fade="621000" si:pts="1782000" si:anchorElement="true"/>
+	<ns2:GroupOfEffects si:pts="2430000" si:anchorElement="true">
+		<ns2:Effect xsi:type="sev:VibrationType" activate="false"/>
+		<ns2:Effect xsi:type="sev:WindType" activate="false"/>
+	</ns2:GroupOfEffects>
+	<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="30" si:pts="2772000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="false" si:pts="3078000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="5" si:pts="3528000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="false" si:pts="3564000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="15" si:pts="3825000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="false" si:pts="3941999" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="5" si:pts="4203000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="false" si:pts="4239000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="10" si:pts="4338000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="false" si:pts="4437000" si:anchorElement="true"/>
+	<ns2:GroupOfEffects si:pts="4617000" si:anchorElement="true">
+		<ns2:Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="20"/>
+		<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="5"/>
+	</ns2:GroupOfEffects>
+	<ns2:Effect xsi:type="sev:VibrationType" activate="false" si:pts="4680000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="false" si:pts="4725000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="30" si:pts="4941000" si:anchorElement="true"/>
+	<ns2:GroupOfEffects si:pts="5103000" si:anchorElement="true">
+		<ns2:Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="20"/>
+		<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="40"/>
+	</ns2:GroupOfEffects>
+	<ns2:GroupOfEffects si:pts="5139000" si:anchorElement="true">
+		<ns2:Effect xsi:type="sev:VibrationType" activate="false"/>
+		<ns2:Effect xsi:type="sev:WindType" activate="false"/>
+	</ns2:GroupOfEffects>
+	<ns2:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="40" si:pts="5670000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:WindType" activate="false" si:pts="5895000" si:anchorElement="true"/>
+	<ns2:Effect xsi:type="sev:LightType" activate="false" si:pts="7073999" si:anchorElement="true"/>
+</ns2:SEM>

@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Custom
-data/
+data/Action
 
 # Distribution / packaging
 .Python
