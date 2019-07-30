@@ -3,7 +3,7 @@ from clarifai.rest import ClarifaiApp
 import json 
 
 import os
-directory = 'data/Action/'
+directory = 'data/Action'
 outDir = 'data/recognition/'
 
 app = ClarifaiApp(api_key='c6d097d9aeb64d9790b94fbb69c17ae4')
