@@ -6,7 +6,7 @@ import os
 directory = 'data/Action'
 outDir = 'data/recognition/'
 
-app = ClarifaiApp(api_key='c6d097d9aeb64d9790b94fbb69c17ae4')
+app = ClarifaiApp(api_key='___')
 
 m = app.public_models.general_model
 
